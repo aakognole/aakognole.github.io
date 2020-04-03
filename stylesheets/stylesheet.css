@@ -305,12 +305,12 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 10px;
+  right: 20px;
   z-index: 20;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
+  padding: 100px 500px 100px 100px;
+  color: #ggg;
   background: url('../images/twitter_banner.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 900;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
