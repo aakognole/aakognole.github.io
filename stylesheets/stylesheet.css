@@ -300,11 +300,12 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+
 #twitter_banner {
   display: block;
   position: absolute;
   top:0;
-  right: 20px;
+  right: 10px;
   z-index: 20;
   padding: 10px 50px 10px 10px;
   color: #fff;
