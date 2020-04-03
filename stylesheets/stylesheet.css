@@ -286,7 +286,7 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#forkme_banner {
+#github_banner {
   display: block;
   position: absolute;
   top:0;
@@ -295,6 +295,20 @@ Full-Width Styles
   padding: 10px 50px 10px 10px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+#twitter_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 20px;
+  z-index: 20;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/twitter_banner.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
