@@ -13,7 +13,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, strong, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -292,9 +292,11 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 15px 10px 15px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background-size: 30px 30px;
+  background-position: center;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -305,12 +307,48 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 20px;
-  z-index: 20;
-  padding: 100px 500px 100px 100px;
-  color: #ggg;
+  right: 50px;
+  z-index: 10;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
   background: url('../images/twitter_banner.png') #0090ff no-repeat 95% 50%;
-  font-weight: 900;
+  background-size: 30px 30px;
+  background-position: center;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#linkedin_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 90px;
+  z-index: 10;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
+  background: url('../images/linkedin_banner.png') #0090ff no-repeat 95% 50%;
+  background-size: 30px 30px;
+  background-position: center;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#gmail_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 130px;
+  z-index: 10;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
+  background: url('../images/gmail_banner.png') #0090ff no-repeat 95% 50%;
+  background-size: 30px 24px;
+  background-position: center;
+  font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
