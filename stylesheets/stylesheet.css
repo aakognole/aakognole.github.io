@@ -302,11 +302,28 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#twitter_banner {
+#google_scholar_banner {
   display: block;
   position: absolute;
   top:0;
   right: 50px;
+  z-index: 10;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
+  background: url('../images/google_scholar_banner.png') #0090ff no-repeat 95% 50%;
+  background-size: 30px 30px;
+  background-position: center;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#twitter_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 90px;
   z-index: 10;
   padding: 10px 15px 10px 15px;
   color: #fff;
@@ -323,7 +340,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 90px;
+  right: 130px;
   z-index: 10;
   padding: 10px 15px 10px 15px;
   color: #fff;
@@ -340,7 +357,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 130px;
+  right: 170px;
   z-index: 10;
   padding: 10px 15px 10px 15px;
   color: #fff;
@@ -363,7 +380,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 70px 10px 15px 10px;
 }
 
 #project_title {
